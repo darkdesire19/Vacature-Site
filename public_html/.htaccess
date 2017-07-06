@@ -1,0 +1,23 @@
+Options -Indexes 
+RewriteEngine On
+RewriteRule ^index.php/?$			/views/home.php								[NC,L]
+RewriteRule ^events/?$				/views/event_overview.php					[NC,L]
+RewriteRule ^reviews/?$				/views/review_overview_public.php			[NC,L]
+RewriteRule ^news/?$				/views/news_overview.php					[NC,L]
+RewriteRule ^book/?$				/views/booking_new.php						[NC,L]
+RewriteRule ^gallery/?$             /views/gallery_overview.php                 [NC,L]
+RewriteRule ^activeren/?$           /views/activeren.php                        [NC,L]
+RewriteRule ^contact/?$             /views/contact.php                          [NC,L]
+RewriteRule ^6666/?$                /6666/login.php                             [NC,L]
+
+RewriteRule ^user/login/?$			/views/login.php							[NC,L]
+RewriteRule ^user/new/?$			/views/customer_new.php						[NC,L]
+RewriteRule ^user/reviews/?$		/views/review_overview_user.php				[NC,L]
+RewriteRule ^user/review/edit/?$	/views/review_edit.php						[NC,L]
+RewriteRule ^user/review/new/?$		/views/review_new.php						[NC,L]
+RewriteRule ^user/bookings/?$		/views/booking_overview.php					[NC,L]
+RewriteRule ^user/booking/edit/?$	/views/booking_edit.php						[NC,L]
+RewriteRule ^user/details/?$		/views/customer_edit.php					[NC,L]
+RewriteRule ^user/logout/?$			/views/logout.php							[NC,L]
+RewriteRule ^user/welcome/?$		/views/default_structure.php				[NC,L]
+

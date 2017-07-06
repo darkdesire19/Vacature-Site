@@ -1,0 +1,106 @@
+/* PLACEHOLDER LICENSE
+ *
+ *
+ *
+*/
+/*!
+ * Start Bootstrap - Thumbnail Gallery (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* DEFAULT SETTINGS */
+html, body{margin: 0; 	width: 100%; 	height: 100%;	font-family: Roboto;}
+h1, h2, h3, h4, h5, h6{display: inline; font-weight: normal; font-family: Roboto;}
+a:link, a:hover, a:active, a:visited{text-decoration: none;}
+a{color: #d50000;}
+.end, .end_float{clear: both;}
+
+/* HEADER */
+header a{color: #ffffff;}
+header a:hover{color: #f0f0f0;}
+header{background-color: #212121; width: 100%; color: #d50000; position: fixed; top: 0;}
+.header_placeholder{width: 100%; height: 3.5vh; -webkit-transition:height .3s;-moz-transition:height .3s;transition:height .3s}
+#header_container{width: 100%; display: table;}
+#header_logo{width: 30%; font-size: 5vh;}
+#header_nav{width: 70%;}
+#header_nav ul{list-style: none; text-transform: uppercase; margin: 0; padding: 0;}
+#header_nav ul li a{color: #d50000;}
+.language{height: 2vh; border: 1px solid #990000;}	/* Language Flags */
+
+/* MAIN */
+#main_image{width: 100%; height: 75%; background-size: cover; background-repeat: no-repeat; background-position: center; background-attachment: fixed; text-align: center;}
+div#main_image.fullheight{height: 100%;}
+#main_image_placeholder{width: 100%; height: 50%;}
+#main_container_triangle{width: 0; height: 0; border-style: solid; border-width: 0 0 8vh 98vw; border-color: transparent transparent #dadada transparent; margin-top: -7.5vh; float: right; }
+#main_container{width: 100%; background-color: #dadada; min-height: 45vh; margin-top: -0.1vh; color: #000000;}
+
+/* TYPOGRAFIE */
+h1.h1_title{color: #fafafa; font-size: 7vh; text-transform: uppercase;}
+h2.h2_title{color: #d50000; font-size: 4vh; text-transform: uppercase; font-weight: 700;}
+h3.h3_subtitle{color: #d50000; font-size: 3vh;}
+.subtext{color: #333333; font-size: 1.8vh;}
+
+/* FORM */
+form.nostyle{width: 100%; padding: 0; background-color: #212121; border: 0;}
+
+/* FORM OBJECTS */
+label{font-size: 2vh; color: #333333; padding-left: 0.5vh;}
+input, select, textarea{ box-sizing: border-box;	-moz-box-sizing: border-box; width: 100%; font-family: Roboto; color: #333333; font-size: 2vh; padding: 0.5vh; border: 0.3vh #424242 solid; border-radius: 0.6vh;}
+textarea{max-width: 100%; min-width: 100%; max-height: 30vh; min-height: 10vh;}
+input[type=submit], .button{background-color: #d50000; border: 0.3vh #d50000 solid; border-radius: 0.6vh; color: #fafafa; padding: 0.5vh;}
+input[type=submit]:hover, input[type=reset], .button:hover{cursor: pointer; color: #ffffff; background-color: #f01f1f;}
+input[type=submit].no-width{width: auto;}
+input[type=reset]{background-color: #333333;}
+input[type=radio], input[type=checkbox]{width: auto; padding: 0; color: #ffffff;}
+
+/* NOFICATIONS */
+.nofication{width: 100%; padding: 0.7vh; font-size: 2.5vh; color: #333333; background-color: #ffffff; margin-bottom: 10px;}
+div.success{border: 0.3vh solid #009900;}
+div.error{border: 0.3vh solid #990000;}
+
+/* FOOTER */
+footer{width: 100%; background-color: #212121;  margin-top: -0.3vh; font-size: 2vh; color: #ffffff; text-align: center;}
+#footer_triangle{width: 0; height: 0; border-style: solid; border-width: 0 0 8vh 98vw; border-color: transparent transparent #212121 transparent; margin-top: -8vh; float: right; }
+
+/* OVERIG */
+.placeholder2{height: 8vh;}
+.stars{fonts-size: 2.5vh; color: #ff6600;}		/* Style for star symbols (reviews) */
+.thumb {margin-bottom: 30px;}
+
+@media screen and (min-width: 830px) {
+	/* BIG WIDTH SCREENS */
+	
+	#header_logo, #header_nav{display: table-cell; vertical-align: middle;}
+	#header_nav ul li{display: inline-block; font-size: 2.5vh; padding-right: 1vw;}
+	#menu_icon{display: none;}
+	#main_container{font-size: 2.5vh;}
+	form, .container-40{width: 40%; margin: auto; padding: 3vw; border: 0.3vh #424242 solid; border-radius: 0.6vh; background-color: #ffffff; font-size: 2vh;}
+	.container{width: 80%; margin: auto;}
+	/* GRID */
+	.div-15{width: 15%; float: left; padding: 1% 1% 1% 1%;}
+	.div-20{width: 18%; float: left; padding: 1% 1% 1% 1%;}
+	.block100p{width: 100%; font-size: 2.2vh; margin-bottom: 1vh; padding: 2.5%; background-color: #fafafa;}
+	.grid_head{font-weight: 700;}
+	div.shrink{height: 0; visibility: hidden;} /* Visibility: hidden --> hide content of this div */
+}
+@media screen and (max-width: 830px) {
+	/* SMALL WIDTH SCREENS */
+	
+	#header_logo, #header_nav{width: 100%; text-align: center;}
+	#menu{display: none;}
+	#menu_icon{display: inline-block;}
+	#menu.active{display: block;}
+	#main_container{font-size: 2.5vh;}
+	#header_nav ul li:first-child{border-top: 1px #999999 solid;}
+	#header_nav ul li{ font-size: 2.5vh; padding-right: 1vw; padding-top: 1.5vh; padding-bottom: 1.5vh; border-bottom: 1px #999999 solid;}
+	.icon-bar{width: 30px; height: 0.5vh; background-color: #d50000; margin-bottom: 0.6vh;}
+	#menu_icon:hover{cursor: pointer;}
+	form, .container-40{width: 97%; padding: 1%; background-color: #ffffff;}
+	.container{width: 98%; margin: auto;}
+	.div-15, .div-20{width: 100%;}
+	.block100p{width: 97%; font-size: 2.2vh; background-color: #fafafa; padding: 1%; margin-bottom: 0.5vh;}
+	.grid_head{display: none;}
+}
+
+
